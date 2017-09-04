@@ -1,5 +1,6 @@
 <template>
     <div>
+    //组件
         <hello></hello>
     </div>
 </template>
