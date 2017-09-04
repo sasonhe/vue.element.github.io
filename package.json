@@ -1,0 +1,19 @@
+{
+  "name": "vue.element.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasonhe/vue.element.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasonhe/vue.element.github.io/issues"
+  },
+  "homepage": "https://github.com/sasonhe/vue.element.github.io#readme"
+}
