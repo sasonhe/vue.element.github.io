@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- test -->
         <hello></hello>
     </div>
 </template>
