@@ -5,6 +5,7 @@ import VueResource from 'vue-resource'
 import App from './App.vue'
 import Element from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
+import './common/reset.css'
 // 引入路由配置
 import routes from './router.config'
 // 注册路由
