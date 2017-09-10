@@ -27,7 +27,7 @@
     },
     methods: {
       onSubmit() {
-        console.log('submit!');
+        console.log(this.pass,this.user);
       }
     }
   }
