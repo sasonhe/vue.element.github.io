@@ -1,9 +1,9 @@
 <template>
   <div>
     <el-form>
-           <el-form-item label="密码:">
-             <el-input type="password" v-model="form.pass"></el-input>
-           </el-form-item>
+       <el-form-item label="密码:">
+         <el-input type="password" v-model="form.pass"></el-input>
+       </el-form-item>
       <el-form-item label="账号:">
         <el-input v-model="form.user"></el-input>
       </el-form-item>
