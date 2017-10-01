@@ -1,34 +1,23 @@
 <template>
-  <div>
-    <el-form>
-       <el-form-item label="密码:">
-         <el-input type="password" v-model="form.pass"></el-input>
-       </el-form-item>
-      <el-form-item label="账号:">
-        <el-input v-model="form.user"></el-input>
-      </el-form-item>
-      <el-form-item>
-        <el-button type="primary" @click="onSubmit">登录</el-button>
-      </el-form-item>
-    </el-form>
-  </div>
+  <el-tabs v-model="activeName" @tab-click="handleClick">
+    <el-tab-pane label="用户管理" name="first">用户管理</el-tab-pane>
+    <el-tab-pane label="配置管理" name="second">配置管理</el-tab-pane>
+    <el-tab-pane label="角色管理" name="third">角色管理</el-tab-pane>
+    <el-tab-pane label="定时任务补偿" name="fourth">定时任务补偿</el-tab-pane>
+  </el-tabs>
 </template>
-
-
 <script>
   export default {
     data() {
       return {
-        form: {
-          pass: '',
-          user: ''
-        }
-      }
+        activeName: 'second'
+      };
     },
     methods: {
-      onSubmit() {
-        console.log(this.pass,this.user);
+      handleClick(tab, event) {
+        console.log(tab, event);
       }
     }
-  }
+  };
 </script>
+
